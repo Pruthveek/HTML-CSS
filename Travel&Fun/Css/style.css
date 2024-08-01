@@ -45,14 +45,6 @@ h1,h2,h3{
     padding:1rem;
 } 
 
-.large_head{
-    font-size: 3.5rem;
-}
-
-.mid_head{
-    font-size: 2.2rem;
-}
-
 .header .navbar .logo .logocolor{
     color:green;
 }
@@ -78,10 +70,12 @@ h1,h2,h3{
 }
 .header .navbar .logo{
     float: left;
+    font-size: 3.5rem;
 }
 
 .header .navbar .menu{
     float: right;
+    margin-top: 1rem;
 }
 .header .navbar .menu .nav_item{
     display: inline-block;
