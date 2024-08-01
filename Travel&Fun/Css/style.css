@@ -36,7 +36,6 @@ h1,h2,h3{
 .header .navbar{
     width: 90%;
     margin: 0px auto;
-    padding: 20px 0px;
 }
 
 .header .navbar .logo,.header .navbar .menu .nav_item{
