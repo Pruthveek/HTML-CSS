@@ -13,3 +13,23 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.header .navbar .logo,.header .navbar .menu .nav_item{
+    color: white;
+} 
+
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header .navbar .logo{
+    float: left;
+}
+
+.header .navbar .menu{
+    float: right;
+}
+.header .navbar .menu .nav_item{
+    display: inline-block;
+}
