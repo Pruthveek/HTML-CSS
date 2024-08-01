@@ -24,7 +24,7 @@ h1,h2,h3{
     margin-bottom: 0.5em;
     letter-spacing: 0.15em;
 }
-.header{
+.header {
     height: 100vh;
     background: linear-gradient(hsla(0, 0%, 0%, 0.6), rgba(0,0,0,0.6)) ,url("../Img/header_background.jpg");
     background-position: center;
@@ -33,32 +33,27 @@ h1,h2,h3{
     
 }
 
-.header .navbar .structure{
+.header  .navbar{
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
 
-.structure{
-    width: 90%;
-    margin: 0px auto;
-}
-
-/* .header .navbar .structure .logo,.header .navbar .structure .menu .nav_item{
+/* .header  .navbar .logo,.header  .navbar .menu .nav_item{
     color: white;
     padding:1rem;
 }  */
 
-.header .navbar .structure .logo .logocolor{
+.header  .navbar .logo .logocolor{
     color:rgb(0, 255, 0);
 }
 
-.header .navbar .structure .menu .nav_item .menubuton{
+.header  .navbar .menu .nav_item .menubuton{
     text-decoration: none;
     color: white;
     font-size: 2rem;
 }
 
-.header .navbar .structure .menu .nav_item .menubuton:hover{
+.header  .navbar .menu .nav_item .menubuton:hover{
     border-bottom: 1px solid white;
 }
 
@@ -67,7 +62,7 @@ h1,h2,h3{
     display: block;
     clear: both;
 }
-.header .navbar .structure .logo{
+.header  .navbar .logo{
     float: left;
     font-size: 2.5rem;
     padding-top: 1.5rem;
@@ -77,11 +72,11 @@ sub{
     font-weight: 300;
     color: white;
 }
-.header .navbar .structure .menu{
+.header  .navbar .menu{
     float: right;
     margin-top: 1rem;
 }
-.header .navbar .structure .menu .nav_item{
+.header  .navbar .menu .nav_item{
     display: inline-block;
     padding: 1rem;
     text-transform: uppercase;
