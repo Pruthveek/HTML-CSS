@@ -36,7 +36,7 @@ h1,h2,h3{
 .header .navbar{
     width: 100%;
     margin: 0px auto;
-    background-color: rgba(0, 0, 0, 0.48);
+    background: rgb(0 0 0 / 14%);
 }
 
 /* .header .navbar .logo,.header .navbar .menu .nav_item{
