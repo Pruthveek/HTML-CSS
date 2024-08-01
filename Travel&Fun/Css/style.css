@@ -34,8 +34,9 @@ h1,h2,h3{
 }
 
 .header .navbar{
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.48);
 }
 
 /* .header .navbar .logo,.header .navbar .menu .nav_item{
@@ -44,7 +45,7 @@ h1,h2,h3{
 }  */
 
 .header .navbar .logo .logocolor{
-    color:green;
+    color:rgb(0, 255, 0);
 }
 
 .header .navbar .menu .nav_item .menubuton{
