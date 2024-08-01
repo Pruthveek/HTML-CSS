@@ -12,10 +12,13 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 90%;
+    margin: 0px auto;
 }
 
 .header .navbar .logo,.header .navbar .menu .nav_item{
     color: white;
+    text-decoration: none;
 } 
 
 .navbar::after{
