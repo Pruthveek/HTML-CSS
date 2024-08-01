@@ -69,8 +69,8 @@ h1,h2,h3{
 }
 
 sub{
-    font-weight: 200;
-    color: aqua;
+    font-weight: 300;
+    color: white;
 }
 .header .navbar .menu{
     float: right;
