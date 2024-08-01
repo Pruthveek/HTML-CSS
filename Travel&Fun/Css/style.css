@@ -24,7 +24,7 @@ h1,h2,h3{
     margin-bottom: 0.5em;
     letter-spacing: 0.15em;
 }
-.header .structure{
+.header{
     height: 100vh;
     background: linear-gradient(hsla(0, 0%, 0%, 0.6), rgba(0,0,0,0.6)) ,url("../Img/header_background.jpg");
     background-position: center;
