@@ -25,14 +25,18 @@
     color: white;
     padding-top: 5px;
 } 
+
 .header .navbar .logo .logocolor{
     color:green;
+}
+
+.header .navbar .menu .nav_item{
+    padding: 0px 10px;
 }
 
 .header .navbar .menu .nav_item .menubuton{
     text-decoration: none;
     color: white;
-    padding: 0px 10px;
 }
 
 .header .navbar .menu .nav_item .menubuton:hover{
