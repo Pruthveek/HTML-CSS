@@ -47,10 +47,6 @@ h1,h2,h3{
     color:green;
 }
 
-.header .navbar .menu .nav_item{
-    padding: 0px 10px;
-}
-
 .header .navbar .menu .nav_item .menubuton{
     text-decoration: none;
     color: white;
@@ -77,4 +73,5 @@ h1,h2,h3{
 }
 .header .navbar .menu .nav_item{
     display: inline-block;
+    padding: 1rem;
 }
