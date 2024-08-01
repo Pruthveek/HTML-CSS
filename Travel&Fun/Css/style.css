@@ -68,6 +68,9 @@ h1,h2,h3{
     padding-top: 1.5rem;
 }
 
+sub{
+    font-weight: 200;
+}
 .header .navbar .menu{
     float: right;
     margin-top: 1rem;
