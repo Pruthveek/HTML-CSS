@@ -38,10 +38,10 @@ h1,h2,h3{
     margin: 0px auto;
 }
 
-.header .navbar .logo,.header .navbar .menu .nav_item{
+/* .header .navbar .logo,.header .navbar .menu .nav_item{
     color: white;
     padding:1rem;
-} 
+}  */
 
 .header .navbar .logo .logocolor{
     color:green;
