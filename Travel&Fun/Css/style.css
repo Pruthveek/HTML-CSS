@@ -22,11 +22,16 @@
 
 .header .navbar .logo,.header .navbar .menu .nav_item{
     color: white;
+    padding-top: 5px;
 } 
+.header .navbar .logo .logocolor{
+    color:green;
+}
 
 .header .navbar .menu .nav_item .menubuton{
     text-decoration: none;
     color: white;
+    padding: 10px 0px;
 }
 .navbar::after{
     content: "";
