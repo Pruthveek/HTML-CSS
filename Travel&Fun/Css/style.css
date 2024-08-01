@@ -36,8 +36,9 @@
 }
 
 .header .navbar .menu .nav_item .menubuton:hover{
-    text-decoration: underline;
+    border-bottom: 1px solid white;
 }
+
 .navbar::after{
     content: "";
     display: block;
