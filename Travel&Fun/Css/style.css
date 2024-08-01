@@ -66,9 +66,12 @@ h1,h2,h3{
     float: left;
     font-size: 2.5rem;
     padding-top: 1.5rem;
+    background: linear-gradient(to right, #1102b5, #bb0000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
-sub{
+.header .navbar .logo sub{
     font-weight: 300;
     color: white;
 }
