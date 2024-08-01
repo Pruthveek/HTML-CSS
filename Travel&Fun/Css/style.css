@@ -43,10 +43,6 @@ h1,h2,h3{
     padding:1rem;
 }  */
 
-.header .navbar .logo .logocolor{
-    color:green;
-}
-
 .header .navbar .menu .nav_item .menubuton{
     text-decoration: none;
     color: white;
