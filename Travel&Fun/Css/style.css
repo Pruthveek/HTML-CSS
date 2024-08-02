@@ -118,6 +118,7 @@ sub{
     .header  .navbar{
         float: right;
         display: block;
+        padding: 5px;
     }
     .header  .navbar .menu .nav_item .menubuton{
         text-align: right;
