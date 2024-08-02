@@ -34,6 +34,8 @@ h1,h2,h3{
 }
 
 .header  .navbar{
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     padding: 0 5rem;
