@@ -114,11 +114,51 @@ sub{
     color: deeppink;    
 }
 
-@media screen and (max-width:500px) {
-    .header  .navbar .menu .nav_item{
-        float: none;
-        display: block;
-        text-align: left;
-        font-size: 1rem;
+@media screen and (max-width: 500px) {
+    .header .navbar {
+        padding: 0 1rem; /* Reduce padding to fit small screens */
+    }
+    
+    .header .navbar .logo {
+        font-size: 2rem; /* Adjust logo size for smaller screens */
+        text-align: center; /* Center the logo if needed */
+    }
+    
+    .header .navbar .menu {
+        float: none; /* Remove float for vertical stacking */
+        display: block; /* Stack menu items vertically */
+        text-align: center; /* Center-align menu items */
+        margin-top: 1rem; /* Add spacing from the logo */
+    }
+    
+    .header .navbar .menu .nav_item {
+        display: block; /* Stack items vertically */
+        padding: 1rem 0; /* Adjust padding for better spacing */
+        font-size: 1.2rem; /* Slightly increase font size for better readability */
+    }
+    
+    .header .navbar .menu .nav_item .menubuton {
+        display: block; /* Ensure buttons are displayed as block elements */
+        text-align: center; /* Center-align text in buttons */
+        border-bottom: none; /* Remove bottom border if present */
+    }
+
+    .header .intro {
+        width: 100%; /* Make sure the intro section uses full width */
+        padding: 0 1rem; /* Add padding for better spacing */
+        text-align: center; /* Center-align text */
+    }
+    
+    .header .intro h1 {
+        font-size: 2rem; /* Adjust heading size for small screens */
+    }
+    
+    .header .intro p {
+        font-size: 1.4rem; /* Adjust paragraph font size */
+    }
+    
+    .header .intro .button {
+        font-size: 1.2rem; /* Adjust button font size */
+        padding: 0.5rem 2rem; /* Adjust padding for better fit */
     }
 }
