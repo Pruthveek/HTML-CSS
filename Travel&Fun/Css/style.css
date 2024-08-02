@@ -114,7 +114,7 @@ sub{
     color: deeppink;    
 }
 
-@media screen and (min-width:500px) {
+@media screen and (max-width:500px) {
     .header  .navbar{
         float: right;
         display: block;
