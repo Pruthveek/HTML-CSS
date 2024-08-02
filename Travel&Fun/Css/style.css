@@ -115,9 +115,13 @@ sub{
 }
 
 @media screen and (max-width:500px) {
+    .header  .navbar{
+        float: right;
+        display: block;
+    }
     .header  .navbar .menu .nav_item{
         float: right;
-        display: inline-block;
+        display: block;
         text-align: left;
         font-size: 1rem;
     }
