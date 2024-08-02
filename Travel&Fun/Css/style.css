@@ -84,6 +84,7 @@ sub{
 }
 
 .header .intro{
+    width: 90%;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -105,11 +106,10 @@ sub{
     display: inline-block;
     border: none;
     border-radius: 50px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 3rem;
     font-weight: 500;
-    background: lightgray;
+    background: white;
     text-decoration: none;
-    color: #ff00f5;
     margin: 0.5em 0;
-    line-height: 2rem;
+    color: deeppink;    
 }
