@@ -119,9 +119,7 @@ sub{
         float: right;
         display: block;
     }
-    .header  .navbar .menu .nav_item{
-        float: right;
-        display: block;
+    .header  .navbar .menu .nav_item menubuton{
         text-align: left;
         font-size: 1rem;
     }
