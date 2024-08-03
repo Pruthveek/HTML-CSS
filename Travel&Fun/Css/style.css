@@ -86,7 +86,7 @@ sub{
 }
 
 .intro{
-    width: 90%;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
